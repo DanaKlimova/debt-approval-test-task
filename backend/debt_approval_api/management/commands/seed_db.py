@@ -29,8 +29,20 @@ class Command(BaseCommand):
         )
         item_2 = Item(
             name="item 2",
+            debt_request=debt_request_1,
+            manufacturer=manufacturer_2,
+        )
+        item_3 = Item(
+            name="item 3",
+            debt_request=debt_request_1,
+            manufacturer=manufacturer_2,
+        )
+        item_4 = Item(
+            name="item 3",
             debt_request=debt_request_2,
             manufacturer=manufacturer_2,
         )
         item_1.save()
         item_2.save()
+        item_3.save()
+        item_4.save()
